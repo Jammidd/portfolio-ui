@@ -1,0 +1,55 @@
+// Social Media
+$brand-amazon: #FF9900;
+$brand-bitcoin: #F7931A;
+$brand-facebook: #4267B2;
+$brand-google: #DB4437;
+$brand-instagram: #C13584;
+$brand-linkedin: #2867B2;
+$brand-pinterest: #BD081C;
+$brand-reddit: #FF4500;
+$brand-snapchat: #FFFC00;
+$brand-tiktok: #25F4EE;
+$brand-twitter: #1DA1F2;
+$brand-youtube: #FF0000;
+
+$brand-colors: (
+    'amazon': $brand-amazon,
+    'bitcoin': $brand-bitcoin,
+    'facebook': $brand-facebook,
+    'google': $brand-google,
+    'instagram': $brand-instagram,
+    'linkedin': $brand-linkedin,
+    'pinterest': $brand-pinterest,
+    'reddit': $brand-reddit,
+    'snapchat': $brand-snapchat,
+    'tiktok': $brand-tiktok,
+    'twitter': $brand-twitter,
+    'youtube': $brand-youtube
+);
+
+@function rgb-from-hex($hex) {
+    @return red($hex), green($hex), blue($hex);
+}
+
+// Utility Colors
+$warning-color: #d19302;
+$danger-color: #C52F00;
+$success-color: #1AA179;
+$info-color: #6EC6F7;
+
+$primary-color: #0949B1;
+$bg-color: #F5F5F5;
+$font-color: #121212;
+
+$white-color: #FFF;
+$black-color: #000;
+
+
+$warning-color-rgb: #{rgb-from-hex($warning-color)};
+$danger-color-rgb: #{rgb-from-hex($danger-color)};
+$success-color-rgb: #{rgb-from-hex($success-color)};
+$info-color-rgb: #{rgb-from-hex($info-color)};
+
+$primary-color-rgb: #{rgb-from-hex($primary-color)};
+$bg-color-rgb: #{rgb-from-hex($bg-color)};
+$font-color-rgb: #{rgb-from-hex($font-color)};

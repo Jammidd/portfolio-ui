@@ -1,0 +1,94 @@
+@import "colors";
+
+:root {
+    --font-body-sm: 12px;
+    --font-body-md: 14px;
+    --font-body-lg: 16px;
+    --font-body-xl: 18px;
+
+    --font-header-sm: 18px;
+    --font-header-md: 20px;
+    --font-header-lg: 22px;
+}
+
+body {
+    font-size: 14px;
+    color: $font-color;
+}
+
+.body-sm {
+    font-family: "Exo", sans-serif;
+    font-size: 12px;
+    line-height: 1.3rem;
+}
+
+.body-md {
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.body-lg {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+.body-xl {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    line-height: 1.9rem;
+}
+
+.body-link {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.heading-xs {
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.heading-sm {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.9rem;
+}
+.heading-md {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.heading-lg {
+    font-family: "Exo", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.heading-xl {
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.centered {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.underlined {
+    border-bottom: 1px solid $font-color;
+}

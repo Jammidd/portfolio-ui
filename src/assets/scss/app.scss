@@ -1,0 +1,27 @@
+@import "scheme/reset";
+@import "scheme/fonts";
+@import "scheme/typography";
+@import "scheme/colors";
+@import "scheme/screens";
+
+body {
+	background-color: $bg-color;
+    * {
+        box-sizing: border-box;
+    }
+}
+
+
+.btn {
+	background: $white-color;
+	border: 1px solid $black-color;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: $black-color;
+	border-radius: 4px;
+
+	&:hover {
+		background: darken($white-color, 10%);
+	}
+}
